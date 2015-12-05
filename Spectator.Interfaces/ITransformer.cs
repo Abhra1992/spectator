@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spectator.Interfaces
-{
-    public class Class1
-    {
+namespace Spectator.Interfaces {
+    public interface ITransformer {
+        TransformerResult Transform();
     }
 }
