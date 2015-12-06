@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectator", "Spectator\Spectator.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectator.CoffeeScript", "Spectator.CoffeeScript\Spectator.CoffeeScript.csproj", "{B1F11196-99AD-4122-9FA6-8A78E3889348}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectator.SASS", "Spectator.SASS\Spectator.SASS.csproj", "{46B9C759-DC09-4F52-B78F-1CDE50805714}"
@@ -21,16 +19,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectator.Handlebars", "Spe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectator.Interfaces", "Spectator.Interfaces\Spectator.Interfaces.csproj", "{B670DEF6-588C-43D2-890F-31FA82E0FDA4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Spectator", "Spectator\Spectator.fsproj", "{7EC10BF1-CF92-4173-BBEA-4FE2E577F6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1F11196-99AD-4122-9FA6-8A78E3889348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1F11196-99AD-4122-9FA6-8A78E3889348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F11196-99AD-4122-9FA6-8A78E3889348}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{B670DEF6-588C-43D2-890F-31FA82E0FDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B670DEF6-588C-43D2-890F-31FA82E0FDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B670DEF6-588C-43D2-890F-31FA82E0FDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC10BF1-CF92-4173-BBEA-4FE2E577F6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC10BF1-CF92-4173-BBEA-4FE2E577F6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC10BF1-CF92-4173-BBEA-4FE2E577F6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC10BF1-CF92-4173-BBEA-4FE2E577F6E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
