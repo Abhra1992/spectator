@@ -39,8 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IBuilder.cs" />
+    <Compile Include="IConfiguration.cs" />
+    <Compile Include="IDataSource.cs" />
+    <Compile Include="IScriptTransformer.cs" />
+    <Compile Include="IStylesheetTransformer.cs" />
+    <Compile Include="ITemplateTransformer.cs" />
+    <Compile Include="ITransformer.cs" />
+    <Compile Include="IViewHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransformerResult.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
